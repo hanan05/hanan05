@@ -1,0 +1,12 @@
+public class SumOfNumbers3  
+{    
+public static void main(String args[])   
+{            
+int x = 94, y = 32, a = -10, b = -37, sum, s;    
+sum=Integer.sum(x, y);  
+//returns the sum of x and y  
+System.out.println("The sum of x and y is: " +sum);    
+s=Integer.sum(a, b);  
+System.out.println("The sum of x and y is: " +s);  
+}    
+}  
